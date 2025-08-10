@@ -1,0 +1,11 @@
+/* subtle diagonal stripes like the wireframe */
+.sidebar {
+  background-image: repeating-linear-gradient(
+    135deg,
+    rgba(0,0,0,0.03) 0,
+    rgba(0,0,0,0.03) 8px,
+    transparent 8px,
+    transparent 16px
+  );
+  border-right: 1px solid rgba(0,0,0,.08);
+}

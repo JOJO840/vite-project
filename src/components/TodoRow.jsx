@@ -1,6 +1,6 @@
 const TodoRow = ({ todo }) => (
   <li className="list-group-item d-flex align-items-center">
-    {/* Uncontrolled checkbox — just visual for now */}
+    
     <input
       className="form-check-input me-2"
       type="checkbox"
